@@ -45,7 +45,9 @@ def puntaje(J1, J2):
         puntos2 = 1
     print(f"    {puntos1}   ,       {puntos2}")
     return puntos1, puntos2
-#
+
+
+#programa principal
 print ("Cuantas partidas vas a jugar:")
 n = input()
 Jugador1 = input()
