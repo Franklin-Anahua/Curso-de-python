@@ -1,3 +1,4 @@
+#escribe los numeros de fibonaci en orden
 a=0
 b=1
 i =0
@@ -14,7 +15,7 @@ while i<entero:
     print(b)
     b=c
     
-    
+#lo mismo pero con una funcion
 def finonacci(n: int):
     if n == 0:
         return 0
@@ -22,4 +23,6 @@ def finonacci(n: int):
         return 1
     else:
         return finonacci(n-1) + finonacci(n-2)
+    
+#como hacerlo un triangulo de fibonacci
     
