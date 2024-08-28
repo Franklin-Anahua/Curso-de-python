@@ -15,6 +15,12 @@ print(f"El factorial de {numero} es {factorial_iterative(numero)}")
 
 
 #permutación
+from itertools import permutations  
+elementos = ['A', 'B', 'C']  
+permutaciones = list(permutations(elementos))  
+for p in permutaciones:  
+    print(p)
+    
 #combinatoria
 #Cambio de base
 #dia/mes/año
