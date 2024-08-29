@@ -12,4 +12,7 @@ texto3 = "Hola"
 texto3 += " Mundo"
 texto3 += ", "
 texto3 += "Welcome"
-print(texto3) 
+print(texto3)
+
+txt = input()
+txt = txt + texto + " " + num + " " + texto
