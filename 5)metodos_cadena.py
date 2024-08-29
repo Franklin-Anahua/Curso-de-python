@@ -2,7 +2,6 @@ cadena1 = "hola, soy Franklin"
 cadena2 = "Bienbenido"
 cadena3 = "2356253"
 cadena4 = "naranja,platano,coco,uva,manzana"
-cadena5 = "lol,platano,coco,uva,manz"
 
 #DIR- devuelve la lista de atributos validos del objeto pasado
 text =dir(cadena1)
