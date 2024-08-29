@@ -1,13 +1,10 @@
 usuario = "Franklin"
+print("Ingresa tu Nombre de usuario")
 usuar = input()
 
 # os.system("cls") # para windows
-
-if usuario == usuar:
-    print("se ha ingresado correctamente el usuario")
-elif usuario != usuar:
+while usuar != "Franklin":
+    print("usuario incorrecto")
     print("Intente de nuevo")
     usuar = input()
-    #continue
-else:
-    print("usuario incorrecto")
+print("se ha ingresado correctamente el usuario")
