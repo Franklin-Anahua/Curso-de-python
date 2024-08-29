@@ -22,6 +22,24 @@ for p in permutaciones:
     print(p)
     
 #combinatoria
+import itertools
+def generar_combinaciones(elementos, r):
+    """Genera combinaciones de r elementos de la lista."""
+    return list(itertools.combinations(elementos, r))
+
+def generar_permutaciones(elementos, r):
+    """Genera permutaciones de r elementos de la lista."""
+    return list(itertools.permutations(elementos, r))
+# Ejemplo de uso
+if __name__ == "__main__":
+    elementos = ['A', 'B', 'C', 'D']
+    r = 2
+    combinaciones = generar_combinaciones(elementos, r)
+    print(f"Combinaciones de {r} elementos: {combinaciones}")
+    permutaciones = generar_permutaciones(elementos, r)
+    print(f"Permutaciones de {r} elementos: {permutaciones}")
+
+
 #Cambio de base
 #dia/mes/año
 #capicua
