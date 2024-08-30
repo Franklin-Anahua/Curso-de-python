@@ -48,9 +48,8 @@ def puntaje(J1, J2):
 
 
 #programa principal
-print ("Cuantas partidas vas a jugar:")
-n = input()
-Jugador1 = input()
+n = input("Cuantas partidas vas a jugar: ")
+Jugador1 = input("Ingrese su usuario: ")
 partidas = int(n)
 J1 = 0
 J2 = "SI"
