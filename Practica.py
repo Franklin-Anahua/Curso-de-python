@@ -14,8 +14,8 @@ texto1 = """
 print(texto1)
 texto2 = "Opcion: "
 print(texto2)
-a = input()
-b = input()
+a = input("ingrese el numero a: ")
+b = input("ingrese el numero b: ")
 c = a + b
 print(c)
 
