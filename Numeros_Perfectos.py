@@ -1,3 +1,4 @@
+#¿what if?
 #arboles de algoritmo
 class Node:
     def __init__(self, key):
