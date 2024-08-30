@@ -55,7 +55,7 @@ def cambiar_base(numero, base):
     
     return resultado  
 # Ejemplo de uso  
-numero_base_10 = 42  
+numero_base_10 = 37
 base_deseada = 2  
 numero_en_base_dos = cambiar_base(numero_base_10, base_deseada)  
 print(f"El número {numero_base_10} en base {base_deseada} es: {numero_en_base_dos}")  
