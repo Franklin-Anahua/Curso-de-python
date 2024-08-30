@@ -6,7 +6,7 @@
 
 
 #tabla de juego si y no (sisi= 3-3 sino = 5-0 nono= 1-1)
-Leyenda = """
+print ("""
 INSTRUCCIONES DEL JUEGO: "ESTRACTEGIA"
 En este juego tu objetivo sera llegar al maximo                Jugador 1           Jugador 2
 puntaje posible, en cuestion te enfrentaras a                  ------------------------------
@@ -24,8 +24,20 @@ se dara 5 pts al otro y tu tendras 0 pts                           **  ***      
                                                                 NO       ***   ***         NO
                                                                            *****
                                                                            
-"""
-print (Leyenda)
+""")
+
+#"friendman" (guarda rencor)
+def Friendman(J1):
+    if J1 != "NO":
+        return "SI"
+    return "NO"
+#"Joss" (astuto)
+def Joss():
+    if J1 == "SI":
+        return "SI"
+    quit
+    return "NO"
+
 
 #convierte la opcion en puntaje
 def puntaje(J1, J2):
@@ -51,13 +63,13 @@ def puntaje(J1, J2):
 n = input("Cuantas partidas vas a jugar: ")
 Jugador1 = input("Ingrese su usuario: ")
 partidas = int(n)
-J1 = 0
-J2 = "SI"
+
 i=0
 while i < partidas:
     enfrentamiento =  f"{Jugador1}      VS      BOT"
     print (enfrentamiento)
     J1 = input()
+    J2 = Friendman(J1)
     puntaje(J1, J2)
     i += 1
 
