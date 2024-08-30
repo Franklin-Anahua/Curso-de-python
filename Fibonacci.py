@@ -25,4 +25,21 @@ def finonacci(n: int):
         return finonacci(n-1) + finonacci(n-2)
     
 #como hacerlo un triangulo de fibonacci
-    
+def fibonacci(n):  
+    """Genera una lista de los primeros n números de Fibonacci."""  
+    fib = [0, 1]  
+    for i in range(2, n):  
+        fib.append(fib[i-1] + fib[i-2])  
+    return fib[:n]  
+def triangulo_fibonacci(n):  
+    """Genera un triángulo de Fibonacci con n filas."""  
+    fib_numbers = fibonacci(n * (n + 1) // 2)  # Total de números necesarios  
+    index = 0  
+    for i in range(1, n + 1):  
+        for j in range(i):  
+            print(fib_numbers[index], end=' ')  
+            index += 1  
+        print()  # Nueva línea después de cada fila  
+# Ejemplo de uso  
+filas = 5  
+triangulo_fibonacci(filas) 
