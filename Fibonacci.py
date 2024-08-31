@@ -14,7 +14,7 @@ while i<entero:
     a=b
     print(b)
     b=c
-    
+
 #lo mismo pero con una funcion
 def finonacci(n: int):
     if n == 0:
@@ -39,7 +39,18 @@ def triangulo_fibonacci(n):
         for j in range(i):  
             print(fib_numbers[index], end=' ')  
             index += 1  
-        print()  # Nueva línea después de cada fila  
-# Ejemplo de uso  
-filas = 5  
-triangulo_fibonacci(filas) 
+        print()  # Nueva línea después de cada fila 
+        
+#como hacerlo un triangulo de fibonacci
+
+def fibonacci2(n):  
+    """Genera un número de Fibonacci."""  
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    
+def triangulo_fibonacci2(n):
+    """Genera un triángulo de Fibonacci con n filas."""  
+    for i in range(1, n + 1):
+        print(" ".join(str(fibonacci(j)) for j in range(i)))
