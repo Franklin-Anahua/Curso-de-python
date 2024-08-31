@@ -5,21 +5,31 @@
 #       print(i)
 #print(a^b)
 
-texto1 = """
+print("""
     Programa:
     1) sumando
     2) restando
     3) multiplicando
-"""
-print(texto1)
-texto2 = "Opcion: "
-print(texto2)
-a = input("ingrese el numero a: ")
-b = input("ingrese el numero b: ")
-c = a + b
-print(c)
+    4) diviendo
+    0) salir
+""")
+op = int(input("opcion: "))
 
-#mapa
-map = input()
-print(map)
+
+if op != 0:
+    a = input("ingrese el numero a: ")
+    b = input("ingrese el numero b: ")
+    if op == 1:
+        print(int(a) + int(b))
+    elif op == 2:
+        print(int(a) - int(b))
+    elif op == 3:
+        print(int(a) * int(b))
+    elif op == 4:
+        if int(b) == 0:
+            print("Error: Division por cero")
+        else:
+            print(int(a) / int(b))
+    else:
+        print("Error: Opción no válida")
 
