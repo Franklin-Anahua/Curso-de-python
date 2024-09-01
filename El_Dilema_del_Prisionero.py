@@ -25,6 +25,7 @@ se dara 5 pts al otro y tu tendras 0 pts                           **  ***      
                                                                            *****
                                                                            
 """)
+#"" ()
 
 #"friendman" (guarda rencor)
 def Friendman(J1):
