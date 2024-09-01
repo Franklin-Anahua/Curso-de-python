@@ -47,3 +47,11 @@ if __name__ == "__main__":
     tree.inorder_traversal(tree.root)
     print("Recorrido en orden del ord")
     tree.inorder_traversal(tree.root)
+
+# ¿qué pasa si insertamos un valor que ya existe en el árbol?
+    tree.insert(6)
+    print("Recorrido en orden del árbol binario:")
+    tree.inorder_traversal(tree.root)
+    print("Recorrido en orden del ord")
+    tree.inorder_traversal(tree.root)
+# Ahora el árbol no es un árbol binario, ya que hay dos nodos con el valor 6.
