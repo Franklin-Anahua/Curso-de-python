@@ -64,6 +64,12 @@ numero_base_2 = "101010"
 numero_en_base_diez = int(numero_base_2, 2)  
 print(f"El número {numero_base_2} en base 10 es: {numero_en_base_diez}")
 
-
 #dia/mes/año
+from datetime import datetime  
+# Obtener la fecha actual  
+fecha_actual = datetime.now()  
+# Formatear la fecha en "día/mes/año"  
+fecha_formateada = fecha_actual.strftime("%d/%m/%Y")  
+print(fecha_formateada)
+
 #capicua
