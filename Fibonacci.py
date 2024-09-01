@@ -1,19 +1,4 @@
-#escribe los numeros de fibonaci en orden
-a=0
-b=1
-i =0
-n = input()
-try:
-    entero = int(n)
-    print("entero")
-except ValueError:
-    print("no entero")
-while i<entero:
-    i +=1
-    c=a+b
-    a=b
-    print(b)
-    b=c
+
 
 #lo mismo pero con una funcion
 def finonacci(n: int):
@@ -54,3 +39,22 @@ def triangulo_fibonacci2(n):
     """Genera un triángulo de Fibonacci con n filas."""  
     for i in range(1, n + 1):
         print(" ".join(str(fibonacci(j)) for j in range(i)))
+        
+
+#escribe los numeros de fibonaci en orden
+a=0
+b=1
+i =0
+n = input()
+#triangulo_fibonacci2(n)
+try:
+    entero = int(n)
+    print("entero")
+except ValueError:
+    print("no entero")
+while i<entero:
+    i +=1
+    c=a+b
+    a=b
+    print(b)
+    b=c
