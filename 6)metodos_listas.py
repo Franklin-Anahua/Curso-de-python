@@ -1,6 +1,6 @@
 
 #LIST - crea una lista
-lista = list(["hola","Franklin",34])
+lista = list(["hola","Franklin",37])
 
 #LEN - cuenta la cantidad de elementos de una lista
 lista1 = len(lista)
@@ -15,9 +15,10 @@ lista.insert(0, "hello")
 lista.extend(["como", "te", "va"])
 
 #POP - elimina un elemento de una lista, pide indice y devuelve valor
-lista.pop(-1, -2)
+lista.pop(-1)
 
 #REMOVE - remueve un elemento de una lista, pide valor
+lista.remove(37)
 #CLEAR - elimina todos los elementos de una lista, pide valor
 #SORT - ordena una lista de forma ascendente a descendente
 #REVERSE - invierte los elementos de una lista
