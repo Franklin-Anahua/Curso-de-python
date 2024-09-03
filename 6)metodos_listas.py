@@ -1,3 +1,5 @@
+lista2 = list([1, False, 4, True, 5])
+lista3 = list([1, False, "Fulgrin", "Perturabo", 5])
 
 #LIST - crea una lista
 lista = list([1, False, "Fulgrin", "Perturabo", 5])
@@ -24,9 +26,10 @@ lista.remove(False)
 #lista.clear()
 
 #SORT - ordena una lista de forma ascendente a descendente
-#lista.sort()
+lista2.sort(reverse=True)#"reverse=True" con o sin eso
 
 #REVERSE - invierte los elementos de una lista
-lista.reverse()
+lista2.reverse()
 
-print(lista)
+print(lista2)
+print(dir(lista3))   
