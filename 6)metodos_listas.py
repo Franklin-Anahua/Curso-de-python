@@ -19,8 +19,14 @@ lista.pop(-1)
 
 #REMOVE - remueve un elemento de una lista, pide valor
 lista.remove(False)
+
 #CLEAR - elimina todos los elementos de una lista, pide valor
+#lista.clear()
+
 #SORT - ordena una lista de forma ascendente a descendente
+#lista.sort()
+
 #REVERSE - invierte los elementos de una lista
+lista.reverse()
 
 print(lista)
