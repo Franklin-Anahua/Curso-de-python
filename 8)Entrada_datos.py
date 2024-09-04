@@ -5,5 +5,8 @@ print("Bienvenido ",nombre)
 #numerico
 numero=input("Numero: ")
 resultado=numero*2
+print(resultado)
 resultado=int(numero)*2
-resultado=float(resultado)*1.5
+print(resultado)
+resultado=float(numero)*1.5
+print(resultado)
