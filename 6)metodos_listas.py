@@ -1,5 +1,7 @@
+lista1 = list([1, 2, 3, 4, 5])
 lista2 = list([1, False, 4, True, 5])
 lista3 = list([1, False, "Fulgrin", "Perturabo", 5])
+lista4 = list(["a", "b", "c", "d", "e"])
 
 #LIST - crea una lista
 lista = list([1, False, "Fulgrin", "Perturabo", 5])
@@ -31,5 +33,11 @@ lista2.sort(reverse=True)#"reverse=True" con o sin eso
 #REVERSE - invierte los elementos de una lista
 lista2.reverse()
 
-print(lista2)
-print(dir(lista3))   
+#INDEX - verifica si se encuentra en la lista
+orden=lista4.index("e")
+
+print(orden)
+#SET() en lista cada caracter
+print(set("letra-15"))  
+#
+print(dir(set("letra")))
