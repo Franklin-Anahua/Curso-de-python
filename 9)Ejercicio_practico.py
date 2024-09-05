@@ -34,5 +34,5 @@ print(f"""ver 10 horas de este curso equivale a ver {otros_cursos_prom*100//Dhor
 ver 10 horas de otros curso equivale a ver {Dhor*100//otros_cursos_prom/10} horas de otro curso""")
 print("----------------------------------------------------------------")
 
-
+#
 
