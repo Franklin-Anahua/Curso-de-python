@@ -73,8 +73,13 @@ while i < partidas:
     J2 = Friendman(J1)
     puntaje(J1, J2)
     i += 1
-#
-
+#puntos_jugador1, puntos_jugador2 = jugar_dilema_prisionero()  
+#print(f"Puntos finales: Jugador 1: {puntos_jugador1}, Jugador 2: {puntos_jugador2}")  
+#def jugar_dilema_prisionero():  
+    #print("Bienvenido al Dilema del Prisionero")  
+    # Opciones de los jugadores  
+    #opciones = ["Cooperar", "Traicionar"]  
+    
 
 
 
