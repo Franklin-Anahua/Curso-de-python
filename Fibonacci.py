@@ -1,4 +1,5 @@
 
+#Programa principal
 
 #lo mismo pero con una funcion
 def finonacci(n: int):
