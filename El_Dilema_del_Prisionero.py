@@ -73,7 +73,7 @@ while i < partidas:
     J2 = Friendman(J1)
     puntaje(J1, J2)
     i += 1
-
+#
 
 
 
