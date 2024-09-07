@@ -10,3 +10,13 @@ resto = a%b #resto
 
 tipo_de_dato = type(division_baja)#type(dato) indica que tipo de dato es.
 print(tipo_de_dato)
+
+#Numeros aleatorios
+from random import randint
+def genera(a=None):
+    if a == None:
+        a = randint(1, 100)
+    return a
+print(genera())
+print(genera(), genera())
+print(a)
