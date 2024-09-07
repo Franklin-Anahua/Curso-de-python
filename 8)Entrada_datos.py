@@ -12,6 +12,6 @@ resultado=float(numero)*1.5
 print(resultado)
 
 #ejemplo "EVAL()" Evalúa la expresión ingresada como código Python.
-num=input("Ingrese un operador:")
+num=input("Ingrese un operador(ej. 6*2):")
 rpta=eval(num)
 print(rpta)
