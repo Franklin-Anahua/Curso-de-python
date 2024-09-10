@@ -48,16 +48,13 @@ while rep:
         case _:
             print("Error: Opción no válida")
 
- 
+#Entrada de datos
 num=eval(input())
 print(num)
 
-#Matrices y estructuras
+#figuras geometricas
+def area_circulo(r):
+    return 3.1416 * r**2
 
-matriz=[[1,2,3],
-        [4,5,6],
-        [7,8,9]]
-for fila in matriz:
-    for elemento in fila:
-        print(elemento, end=" ")
-    print()
+def area_triangulo(base, altura):
+    return (base * altura) / 2
