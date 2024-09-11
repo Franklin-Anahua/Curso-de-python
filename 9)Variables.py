@@ -17,3 +17,4 @@ tuplas2 = "Dato",
 print(tuplas2, "\n")
 
 #Creando conjunto
+conjuntos = []
