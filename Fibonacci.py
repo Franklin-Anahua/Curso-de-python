@@ -59,3 +59,6 @@ while i<entero:
     a=b
     print(b)
     b=c
+    
+#FIBONACI    
+    
