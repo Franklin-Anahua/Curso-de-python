@@ -60,5 +60,14 @@ while i<entero:
     print(b)
     b=c
     
-#FIBONACI    
+#FIBONACI
+def FIBONACI_CUADRADO():
+    """Genera los primeros n números de Fibonacci cuadrados."""
+    fib_numbers = fibonacci(n * (n + 1) // 2)  # Total de números necesarios
+    index = 0
+    for i in range(1, n + 1):
+        for j in range(i):
+            print(fib_numbers[index] ** 2, end=' ')
+            index += 1
+        print()  # Nueva línea después de cada fila
     
