@@ -59,4 +59,4 @@ def area_circulo(r):
 def area_triangulo(base, altura):
     return (base * altura) / 2
 #triangulo = area_triangulo
-
+#Cuadrado = area_Cuadrilatero
