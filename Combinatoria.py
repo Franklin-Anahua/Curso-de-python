@@ -72,4 +72,4 @@ fecha_actual = datetime.now()
 fecha_formateada = fecha_actual.strftime("%d/%m/%Y")  
 print(fecha_formateada)
 
-#capicua
+#capicuas y diferentes bases
