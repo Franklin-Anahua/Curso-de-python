@@ -13,6 +13,11 @@ valor2 = diccionario.get("mo hay nad")
 elim=diccionario.pop("Primarca")
 #obtiene un elemento iterable
 iterable=diccionario.items()
-print(iterable)
+print(iterable,"\n")
 #elimina todo los elementos
 diccionario.clear()
+
+
+#Diccionario con dic()
+diccionario=dict(nombre="Dhor", apellido="Adous")
+print(diccionario)
