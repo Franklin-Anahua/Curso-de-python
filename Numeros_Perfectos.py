@@ -55,3 +55,5 @@ if __name__ == "__main__":
     print("Recorrido en orden del ord")
     tree.inorder_traversal(tree.root)
 # Ahora el árbol no es un árbol binario, ya que hay dos nodos con el valor 6.
+#Insertar, buscar, eliminar nodos
+#
