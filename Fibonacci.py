@@ -71,3 +71,4 @@ def FIBONACI_CUADRADO():
             index += 1
         print()  # Nueva línea después de cada fila
     
+#escribir "-" n-veces n=fibonacci
