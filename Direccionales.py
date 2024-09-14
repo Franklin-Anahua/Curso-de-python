@@ -1,5 +1,5 @@
 #Dirreccionales
-op=input("brujula")
+op=input("brujula: ")
 match(op):
     case "w":
         print("Norte")
