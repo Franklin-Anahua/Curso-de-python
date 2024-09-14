@@ -73,3 +73,4 @@ fecha_formateada = fecha_actual.strftime("%d/%m/%Y")
 print(fecha_formateada)
 
 #capicuas y diferentes bases
+#nose
