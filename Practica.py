@@ -61,3 +61,4 @@ def area_triangulo(base, altura):
 #triangulo = area_triangulo
 #Cuadrado = area_Cuadrilatero
 #Matrice y Determinantes
+#Funciones
