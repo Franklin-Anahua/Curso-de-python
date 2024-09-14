@@ -78,7 +78,8 @@ while i < partidas:
 #def jugar_dilema_prisionero():  
     #print("Bienvenido al Dilema del Prisionero")  
     # Opciones de los jugadores  
-    # opciones = ["Cooperar", "Traicionar"]  
+    # opciones = ["Cooperar", "Traicionar"]
+#actuallity
     
 
 
